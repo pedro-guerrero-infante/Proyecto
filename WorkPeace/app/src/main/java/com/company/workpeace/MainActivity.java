@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        //aqui está mi modificación jajajajaja, soy el puto amo
+        //aqui ahora lo modifico desde el pc
         setContentView(R.layout.activity_main);
 
         new Handler().postDelayed(new Runnable() {
